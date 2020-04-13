@@ -1,2 +1,0 @@
-Spherical harmonics
-------
