@@ -5,7 +5,7 @@ permalink: /code/
 author_profile: true
 ---
 
-Listed here are some less monumental pieces of code that I still find worth sharing for one reason or another.
+Listed here are some less monumental pieces of code that are still worth sharing for one reason or another.
 
 ## [Spherical Harmonics visualization](https://gist.github.com/cgobat/a13bb5fa5b854de586e43d841350a34b)
 Function that takes the _l_ and _m_ (as well as a scaling coefficient) of one or multiple Laplace spherical harmonics and plots the superposition of one over the other.
