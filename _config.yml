@@ -87,8 +87,8 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "cgobat AT gwu DOT edu"
-  researchgate     : "https://www.researchgate.net/profile/Caden_Gobat"
+  email            : #"cgobat AT gwu DOT edu"
+  researchgate     : #"https://www.researchgate.net/profile/Caden_Gobat"
   uri              :
   bitbucket        :
   codepen          :
