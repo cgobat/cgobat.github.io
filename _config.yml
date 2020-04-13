@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Caden Gobat / Site Title"
+title                    : "Caden Gobat / Homepage"
 title_separator          : "-"
 name                     : &name "Caden Gobat"
 description              : &description "Astrophysics undergraduate at the George Washington University"
