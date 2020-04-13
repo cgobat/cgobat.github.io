@@ -87,8 +87,8 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Caden_Gobat"
+  email            : "cgobat AT gwu DOT edu"
+  researchgate     : "https://www.researchgate.net/profile/Caden_Gobat"
   uri              :
   bitbucket        :
   codepen          :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/cadengobat/"
+  orcid            : "https://orcid.org/0000-0003-1268-8845"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/users/4450498/cgobat?tab=profile"
   steam            :
   tumblr           :
-  twitter          : "gobatmann"
+  twitter          : #"gobatmann"
   vine             :
   weibo            :
   xing             :
