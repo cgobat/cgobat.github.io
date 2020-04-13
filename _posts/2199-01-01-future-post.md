@@ -1,11 +1,9 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+title: 'My Summer Leaning Astrophotography with Cloud Break Optics'
+date: 2019-09-01
+permalink: https://cloudbreakoptics.com/blogs/news/my-summer-learning-ap-with-cloud-break-optics
 tags:
-  - cool posts
-  - category1
-  - category2
+  - astronomy
+  - astrophotography
+  - CBO
 ---
-
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
