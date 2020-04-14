@@ -40,8 +40,6 @@ def plot_sph_harm(*params): # pass a tuple of (c,l,m) for each harmonic to be su
     fig.suptitle("Laplace spherical harmonic ($\mathbb{R}^3$): "+titlestr[1:])
     plt.show()
 ```
-And an example of what this script is capable of outputting:
-![Vibrating water droplet model](https://user-images.githubusercontent.com/36030084/79178651-98d97a80-7dba-11ea-9b0c-e68f7ad4e289.png)
 
 ## [GW Course Map](https://github.com/cgobat/gw-course-map)
 Script that maps prerequisite dependencies as well as courses that satisfy multiple general education requirements to enable the most efficient completion of requirements for courses offered at GWU. Since there are several components and not necessarily any pretty output (yet), it's probably easiest just to check out the code at the main repo linked above.
