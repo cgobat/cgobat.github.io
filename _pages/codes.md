@@ -9,6 +9,40 @@ Listed here are some less monumental pieces of code that are still worth sharing
 
 ## [Spherical Harmonics visualization](https://gist.github.com/cgobat/a13bb5fa5b854de586e43d841350a34b)
 Function that takes the _l_ and _m_ (as well as a scaling coefficient) of one or multiple Laplace spherical harmonics and plots the superposition of one over the other. The meat of it is contained here:
+```python
+THETA, PHI = np.meshgrid(theta, phi) # 2D versions of the independent variables
+XYZ = np.array([np.sin(PHI) * np.sin(THETA), np.sin(PHI) * np.cos(THETA), np.cos(PHI)]) 
+
+
+def plot_sph_harm(*params): # pass a tuple of (c,l,m) for each harmonic to be summed
+    orbitals = "spdf"
+    fig = plt.figure(figsize=(8,8)) # init figure
+    ax = fig.add_subplot( 111 , projection='3d') # init 3D axis
+    Y = 0 # init function value
+    titlestr = "" # init plot title
+    
+    for term in params:
+        (c,l,m) = term
+        if type(l) != int:
+            l = orbitals.index(l)
+        Y_lm = c*sph_harm(m, l, THETA, PHI) # calculate the spherical harmonic solution for this m and l combo
+        Y += Y_lm # add it to the full thing
+        titlestr += "+%.2fY$_\{%i\}^\{%i\}$" %(c,l,m)
+    
+    [X,Y,Z] = np.abs(Y.real)*XYZ # take the real part's absolute value and map it back into cartesian
+    colormap = cm.ScalarMappable(cmap=plt.get_cmap("Wistia_r"))
+    axislim = 0.25
+    ax.plot_surface(X, Y, Z, facecolors=colormap.to_rgba(np.sqrt(X*X+Y*Y+Z*Z)), rstride=1, cstride=1) # plot ittttttt
+    ax.set_xlim(-axislim,axislim)
+    ax.set_ylim(-axislim,axislim)
+    ax.set_zlim(-axislim,axislim)
+    ax.set_axis_off() # turn off the grid and axes to make it pretty
+    fig.suptitle("Laplace spherical harmonic ($\mathbb{R}^3$): "+titlestr[1:])
+    plt.show()
+```
+And an example of what this script is capable of outputting:
+
+![Vibrating water droplet model](https://user-images.githubusercontent.com/36030084/79178651-98d97a80-7dba-11ea-9b0c-e68f7ad4e289.png)
 
 ## [GW Course Map](https://github.com/cgobat/gw-course-map)
 Script that maps prerequisite dependencies as well as courses that satisfy multiple general education requirements to enable the most efficient completion of requirements for courses offered at GWU. Since there are several components and not necessarily any pretty output (yet), it's probably easiest just to check out the code at the main repo linked above.
