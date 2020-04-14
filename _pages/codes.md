@@ -27,7 +27,7 @@ def plot_sph_harm(*params): # pass a tuple of (c,l,m) for each harmonic to be su
             l = orbitals.index(l)
         Y_lm = c*sph_harm(m, l, THETA, PHI) # calculate the spherical harmonic solution for this m and l combo
         Y += Y_lm # add it to the full thing
-        titlestr += "+%.2fY$_\{%i\}^\{%i\}$" %(c,l,m)
+        titlestr += "+%.2fY$_%i^%i$" %(c,l,m)
     
     [X,Y,Z] = np.abs(Y.real)*XYZ # take the real part's absolute value and map it back into cartesian
     colormap = cm.ScalarMappable(cmap=plt.get_cmap("Wistia_r"))
