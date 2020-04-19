@@ -1,11 +1,10 @@
 ---
-permalink: /tennisball/
+permalink: /projects/tennisball/
 title: "Tennis Ball Detector"
 author_profile: true
 redirect_from: 
-  - /plots/
-  - /gallery
-  - /plots
+  - /tennisball
+  - /tennisball/
 ---
 
 
