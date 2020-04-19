@@ -7,8 +7,6 @@ redirect_from:
   - /tennisball/
 ---
 
-
-# Tennis Ball Detector Project
 ### ASTR 3141, Fall 2019
 
 Goal: Accurately predict how many tennis balls were thrown given how many were collected in the detector
