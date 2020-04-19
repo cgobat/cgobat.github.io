@@ -6,9 +6,9 @@ main:
   - title: "Code Showcase"
     url: /code/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
+  - title: "Plot Gallery"
+    url: /gallery/    
+    
   - title: "Blog Posts"
     url: /blog/
     
