@@ -13,20 +13,17 @@ redirect_from:
 
 Goal: Accurately predict how many tennis balls were thrown given how many were collected in the detector
 
+P(model \|<sub> data</sub>) * P(data) = P(data \|<sub> model</sub>) * P(model)
 
-P(A |<sub> B</sub>) : P(B) = P(B |<sub> A</sub>) * P(A)
+P(model) = P(S<sub>4</sub>) = P(S<sub>4</sub>\| <sub>obs1</sub>) + P(S<sub>4</sub>\| <sub>obs2</sub>) + P(S<sub>4</sub>\| <sub>obs3</sub>) + P(S<sub>4</sub>\| <sub>obs4</sub>)
 
-P(model |<sub> data</sub>) * P(data) = P(data |<sub> model</sub>) * P(model)
-
-P(model) = P(S<sub>4</sub>) = P(S<sub>4</sub>| <sub>obs1</sub>) + P(S<sub>4</sub>| <sub>obs2</sub>) + P(S<sub>4</sub>| <sub>obs3</sub>) + P(S<sub>4</sub>| <sub>obs4</sub>)
-
-P(obs3) = P(obs3 | S<sub>1</sub>) + P(obs3 | S<sub>2</sub>) + P(obs3 | S<sub>3</sub>) + P(obs3 | S<sub>4</sub>) = 0 + 0 + P(obs3 | S<sub>3</sub>) + P(obs3 | S<sub>4</sub>)
+P(obs3) = P(obs3 \| S<sub>1</sub>) + P(obs3 \| S<sub>2</sub>) + P(obs3 \| S<sub>3</sub>) + P(obs3 \| S<sub>4</sub>) = 0 + 0 + P(obs3 \| S<sub>3</sub>) + P(obs3 \| S<sub>4</sub>)
 
 ^^ this is the response function
 
 P(model) is based on the source behavior. Does the source emit some number more often than another? (aka prior; high risk) For us, this is 1/11 because all sources occur equally as often
 
-P(data | model) is the values in the response table
+P(data \| model) is the values in the response table
 
 P(data) is the probability of detecting a given number out of all trials ever
 
