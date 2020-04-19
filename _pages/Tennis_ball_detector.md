@@ -45,20 +45,8 @@ from google.colab import files
 files.upload()
 ```
 
-
-
-     <input type="file" id="files-f487d890-4a6e-4e37-a18b-e2a01af439bf" name="files[]" multiple disabled />
-     <output id="result-f487d890-4a6e-4e37-a18b-e2a01af439bf">
-      Upload widget is only available when the cell has been executed in the
-      current browser session. Please rerun this cell to enable.
-      </output>
-      <script src="/nbextensions/google.colab/files.js"></script> 
-
-
     Saving probabilitymatrix.csv to probabilitymatrix.csv
     
-
-
 
 
     {'probabilitymatrix.csv': b'# detected,source 0,source 1,source 2,source 3,source 4,source 5,source 6,source 7,source 8,source 9,source 10\r\n0,1.00,0.43,0.27,0.33,0.13,0.27,0.07,0.07,0.00,0.00,0.07\r\n1,0.00,0.57,0.53,0.33,0.47,0.23,0.43,0.33,0.17,0.07,0.13\r\n2,0.00,0.00,0.20,0.33,0.13,0.37,0.40,0.20,0.30,0.17,0.07\r\n3,0.00,0.00,0.00,0.00,0.23,0.13,0.07,0.27,0.43,0.33,0.07\r\n4,0.00,0.00,0.00,0.00,0.03,0.00,0.03,0.10,0.10,0.23,0.30\r\n5,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.03,0.00,0.20,0.17\r\n6,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.20\r\n7,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00\r\n8,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00\r\n9,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00\r\n10,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00'}
@@ -77,19 +65,6 @@ matrix
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -282,7 +257,7 @@ print("For more info on colormap options, see https://matplotlib.org/3.1.1/tutor
 ```
 
 
-![png](output_5_0.png)
+![png](https://raw.githubusercontent.com/cgobat/cgobat.github.io/master/images/output_5_0.png)
 
 
     For more info on colormap options, see https://matplotlib.org/3.1.1/tutorials/colors/colormaps.html
@@ -303,7 +278,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](https://raw.githubusercontent.com/cgobat/cgobat.github.io/master/images/output_6_0.png)
 
 
 
@@ -378,7 +353,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png](https://raw.githubusercontent.com/cgobat/cgobat.github.io/master/images/output_10_0.png)
 
 
 
