@@ -33,20 +33,6 @@ from mpl_toolkits.mplot3d import Axes3D
 ```
 
 
-```python
-# cell to upload the csv for the response matrix data
-from google.colab import files
-files.upload()
-```
-
-    Saving probabilitymatrix.csv to probabilitymatrix.csv
-    
-
-
-    {'probabilitymatrix.csv': b'# detected,source 0,source 1,source 2,source 3,source 4,source 5,source 6,source 7,source 8,source 9,source 10\r\n0,1.00,0.43,0.27,0.33,0.13,0.27,0.07,0.07,0.00,0.00,0.07\r\n1,0.00,0.57,0.53,0.33,0.47,0.23,0.43,0.33,0.17,0.07,0.13\r\n2,0.00,0.00,0.20,0.33,0.13,0.37,0.40,0.20,0.30,0.17,0.07\r\n3,0.00,0.00,0.00,0.00,0.23,0.13,0.07,0.27,0.43,0.33,0.07\r\n4,0.00,0.00,0.00,0.00,0.03,0.00,0.03,0.10,0.10,0.23,0.30\r\n5,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.03,0.00,0.20,0.17\r\n6,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.20\r\n7,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00\r\n8,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00\r\n9,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00\r\n10,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00'}
-
-
-
 
 ```python
 # load the uploaded csv file into a Pandas dataframe variable
@@ -327,10 +313,6 @@ print(model)
     8                     0          NaN
     9                     0          NaN
     10                    0          NaN
-    
-
-    /usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:4: RuntimeWarning: invalid value encountered in double_scalars
-      after removing the cwd from sys.path.
     
 
 
