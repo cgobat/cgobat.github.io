@@ -46,3 +46,7 @@ This is a fitting engine started for a class project that uses SDSS data to infe
 H-R Diagram Visualization
 ------
 This was a data viz project that generates a visually appealing Hertzsprung-Russel diagram, a foundational visualization tool of modern astronomy that plots stars' temperatures or spectral classes against their luminosities. All of the source code for the plotting and [report](https://github.com/cgobat/hr-diagram/blob/master/LaTeX%20report/H_R_report.pdf) typesetting can be found in [cgobat/hr-diagram](https://github.com/cgobat/hr-diagram). This is the final result: ![H-R.png](https://raw.githubusercontent.com/cgobat/hr-diagram/master/LaTeX%20report/figures/diagram.png)
+
+[Tennis Ball Astrophysical Detector Simulation](https://cgobat.github.io/projects/tennisball/)
+------
+For this project, I worked to create and characterize a "tennis ball detector," meant to stand as a emulation of an astrophysical observation instrument. The project demonstrates concepts such as detector response matrices and Bayesian statistical inference, while providing some fun throwing tennis balls into a bucket along the way.
