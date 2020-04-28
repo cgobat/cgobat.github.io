@@ -15,5 +15,6 @@ Content I've authored
 
 Content I'm featured in
 ======
+
  ### [GW Hatchet - Student group to develop interdisciplinary projects in physics Innovation Lab](https://www.gwhatchet.com/2020/02/20/student-group-to-develop-interdisciplinary-projects-in-physics-department-innovation-lab/)
  ###### February 20, 2020
