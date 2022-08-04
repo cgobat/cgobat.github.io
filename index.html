@@ -1,75 +1,230 @@
 <!DOCTYPE html>
-<html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Caden Gobat</title>
-    <meta name="description" content="Caden is an astrophysics undergraduate at GWU.">
-    <link rel="icon" type="image/png" sizes="11x16" href="assets/img/sct-16.png">
-    <link rel="icon" type="image/png" sizes="21x32" href="assets/img/sct-32.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/markdownit-edit.css">
+  <title>Caden Gobat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+  <style>
+    table,
+
+    td {
+      padding-right: 12pt;
+      text-align: left;
+      vertical-align: middle;
+    }
+  </style>
+  <style>
+    span.subsup {
+      position: relative;
+    }
+
+    span.subsup sub {
+      position: absolute;
+      left: 0em;
+      bottom: 0em;
+    }
+  </style>
 </head>
 
-<body id="page-top">
-    <header class="d-flex masthead" style="background-image: url(&quot;assets/img/Sadr_combined_HaLRGB_c.png&quot;);">
-        <div class="container my-auto text-center">
-            <h1 class="mb-1" style="color: rgb(250,250,250);">Caden Gobat</h1>
-            <h3 class="mb-5"><em style="color: rgb(250,250,250);">Astrophysics undergraduate. Data enthusiast.</em></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about">About me</a>
-            <div class="overlay"></div>
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <!-- <li><a href="index.html">Home</a></li> -->
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Entries Column -->
+      <div class="col-md-9" style="height: 100vh;">
+
+        <div style="margin-top:3%; text-align:justify;">
+          <h2 id="about"><b>About me</b></h2>
+          <p>I recently joined the Space Science & Engineering Division at Southwest Research Institute (<a
+              href="https://www.boulder.swri.edu/">SwRI</a>) after graduating from the George Washington University (<a
+              href="https://physics.columbian.gwu.edu/">GWU</a>) with a B.S. in Astronomy & Astrophysics (and minors in
+            Mathematics and Mind/Brain Studies). At SwRI, I work in both the science operations center (SOC) for NASA's
+            recently-launched <a href="https://www.nasa.gov/planetarymissions/discovery.html">Discovery-class</a> <a
+              href="http://lucy.swri.edu/"><i>Lucy</i></a> mission to the <a
+              href="https://en.wikipedia.org/wiki/Jupiter_trojan">Trojan asteroids</a>, developing processing and
+            archiving pipelines for science data, as well as in the mission operations center (MOC) for <a
+              href="https://punch.space.swri.edu/">PUNCH</a> (Polarimeter to Unify the Corona and Heliosphere), a <a
+              href="https://science.nasa.gov/heliophysics">NASA heliophysics</a> <a
+              href="https://explorers.gsfc.nasa.gov/smex.html">Small Explorer</a> constellation scheduled to launch in
+            2025.</p>
+
+          <p>At GWU, I obtained experience in space science and astrophysical research, software development, data
+            analysis, and instrumentation design, while also taking advanced coursework in physics, observational
+            astronomy, mechanical engineering, mathematics, and machine learning.
+            I successfully proposed to and was granted funding for research projects spanning topics from astrophysical
+            data analysis to scientific instrumentation development.</p>
+
+          <p>In the past, I've also worked in several academic and research labs, including the University of Washington
+            (UW)'s Applied Physics Lab writing software for computer vision applications, and the UW Advanced Propulsion
+            Lab prototyping microsatellite testbed systems.
+            I also spent some time working in a telescope store, selling astronomy equipment and optical instruments.
+          </p>
+
+          <!-- <p>Mr. Gobat is proficient in Python, LaTeX, Solidworks/computer-aided design, 3D printing, and MS Office, as well as both electrical and mechanical hardware prototyping. He also has experience with Git, C/C++, machining, the Adobe suite, geographic information systems (GIS), and Matlab.</p> -->
+
+          <h4><b>Professional chronology</b></h4>
+          <div style="margin-left:5%">
+            <table>
+              <tr>
+                <td>2022 &ndash; present</td>
+                <td>Southwest Research Institute</td>
+                <td>Analyst</td>
+                <td>Boulder, CO</td>
+              </tr>
+              <tr>
+                <td>2021 &ndash; 2022</td>
+                <td>George Washington University</td>
+                <td>Luther Rice Research Fellow</td>
+                <td>Washington, DC</td>
+              </tr>
+              <tr>
+                <td>2019</td>
+                <td>UW Applied Physics Laboratory</td>
+                <td>Research Assistant</td>
+                <td>Seattle, WA</td>
+              </tr>
+            </table>
+          </div>
+
+          <h4><b>Educational history</b></h4>
+          <div style="margin-left:5%">
+            <table>
+              <tr>
+                <td>2022</td>
+                <td>George Washington University</td>
+                <td>B.S., Astronomy & Astrophysics</td>
+                <td>Washington, DC</td>
+              </tr>
+            </table>
+          </div>
         </div>
-    </header>
-    <section id="about" class="content-section bg-light">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <h2>About me</h2>
-                    <p class="text-left lead mb-5"><span><br>I am an undergraduate student at the George Washington University (Washinton, DC) majoring in Astronomy &amp; Astrophysics with a double minor in Mathematics and Mind-Brain Studies. My experience includes research in multiple science/engineering laboratories at the University of Washington, data analysis work, and positions in IT and astronomy equipment retail. My research interests lie in instrumentation and software analysis tools for transient phenomena, including sky surveys and efficient follow-up observing. I also greatly enjoy operating telescope systems and performing astronomical observations myself. This site serves as a personal landing page, mostly to exhibit projects and code.<br><br></span></p>
-                    <a
-                        class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="/#pages">See more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="pages" class="content-section bg-primary text-white text-center">
-        <div class="container" style="text-align: center;">
-            <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">Pages</h3>
-                <h2 class="mb-5">Explore</h2>
-            </div>
-            <div class="row" style="text-align: center;">
-                <div class="col-md-6 col-lg-4 offset-lg-0 mb-5 mb-lg-0" style="font-family: 'Source Sans Pro', sans-serif;text-align: center;"><a class="btn btn-link border rounded-circle" role="button" style="height: 112px;background-color: rgb(255,255,255);color: rgb(153,153,153);font-size: 36px;width: 112px;" href="https://www.linkedin.com/in/cadengobat/"><i class="fas fa-business-time" style="font-size: 36px;color: rgb(29,128,159);padding-top: 33px;"></i></a>
-                    <h4><strong>CV/Experience</strong></h4>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" style="text-align: center;"><a class="btn btn-link border rounded-circle" role="button" style="width: 112px;height: 112px;background-color: rgb(255,255,255);color: rgb(153,153,153);font-size: 36px;" href="https://github.com/cgobat/"><i class="fas fa-terminal" style="font-size: 36px;color: rgb(29,128,159);padding-top: 33px;"></i></a>
-                    <h4><strong>Code Showcase</strong></h4>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" style="text-align: center;"><a class="btn btn-link border rounded-circle" role="button" style="width: 112px;height: 112px;background-color: rgb(255,255,255);color: rgb(153,153,153);font-size: 36px;" href="#contact"><i class="far fa-address-card" style="font-size: 36px;color: rgb(29,128,159);padding-top: 33px;"></i></a>
-                    <h4><strong>Contact/Profiles</strong></h4>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="map" style="height: 400px;"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAtwgMWnB_K2rFi_EG2v-HkoM_kKoiv_Nk&amp;q=George+Washington+University+Department+of+Physics&amp;zoom=13" width="100%" height="400"></iframe></section>
-    <footer
-        class="footer text-center" style="padding: 0px;">
-        <div class="container">
-            <ul class="list-inline mb-5" style="margin-bottom: 0px;">
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://cgobat.myportfolio.com"><i class="icon-camera"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://linkedin.com/in/cadengobat"><i class="icon-social-linkedin"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="https://github.com/cgobat"><i class="icon-social-github"></i></a></li>
-            </ul>
-        </div>
-        </footer>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="assets/js/stylish-portfolio.js"></script>
-        <script src="assets/js/markdownit-edit.js"></script>
+      </div>
+
+      <!-- Contact Info on the Sidebar -->
+      <div class="col-md-3">
+        <!-- Main Image -->
+        <img class="img-responsive" src="img/headshot.jpeg" height="250" width="250" alt=""><br>
+        <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Caden Gobat</b></div><br>
+        <p><b>cgobat <i class="fa-solid fa-at"></i> swri . edu</b><br>
+          <dd><a href="https://github.com/cgobat"><i class="fa-brands fa-github" aria-hidden="true"
+                style="color:black"></i> GitHub</a></dd>
+          <dd><a href="https://www.linkedin.com/in/cadengobat"><i class="fa-brands fa-linkedin" aria-hidden="true"
+                style="color:black"></i> LinkedIn</a></dd>
+          <dd><a href="https://orcid.org/0000-0003-1268-8845"><i class="fa-brands fa-orcid" aria-hidden="true"
+                style="color:black"></i> ORCiD</a></dd>
+          <dd><a href="https://ui.adsabs.harvard.edu/search/q=%20author%253A%22Gobat%252C%20Caden%22"><i
+                class="fa fa-rocket" aria-hidden="true" style="color:black"></i> ADS</a>
+          </dd>
+        </p>
+        <p>Department of Space Operations<br>
+          Southwest Research Institute<br>
+          1050 Walnut St, Suite 300<br>
+          Boulder, CO 80302<br>
+          United States<br>
+        </p>
+
+      </div>
+
+
+      <!-- Research/Work -->
+      <div class="col-md-10" style="padding-bottom: 5%;">
+        <h2 id="research"><b>About my work</b></h2>
+        <p>My primary research work while at GWU was a project that involved searching for and analyzing the afterglows
+          of short gamma-ray bursts&mdash;powerful, extragalactic explosions resulting from binary neutron star merger
+          events&mdash;using data from the NASA Neil Gehrels <i>Swift</i> Observatory's X-ray Telescope (XRT) and a
+          variety of optical observatories around the world. This work led to a conference presentation at the American
+          Astronomical Society's High-Energy Astrophysics Division meeting, as well as a first-author publication in
+          <i>Monthly Notices of the Royal Astronomical Society</i>, a peer-reviewed astronomy journal. See more at <a
+            href="http://github.com/cgobat/dark-GRBs">my GitHub repository for the project</a>.
+        </p>
+
+        <p>I also led the development of a public catalog of Be stars (massive B-type stars with distinct emission line
+          spectra) that have been detected in X-rays, a characteristic that hints at the presence of a compact object
+          binary partner such as a neutron star or black hole. The catalog was released openly and described in an
+          article published in <i>Research Notes of the American Astronomical Society</i>. The details of this work can
+          be found <a href="https://github.com/huiyang-astro/XDBS">on GitHub</a> as well.</p>
+
+        <p>I am the developer of the <a
+            href="https://github.com/cgobat/asymmetric_uncertainty">AsymmetricUncertainty</a> Python
+          package, a open-source library that provides functionality for handling asymmetric numerical uncertainties
+          (e.g. 3.0<span class="subsup"><sup>&plus;0.2</sup><sub>&minus;0.4</sub></span>). This tool has widespread
+          applicability in many scientific and computational fields, and is designed for interoperability with other
+          common Python libraries (<code>numpy</code>, <code>matplotlib</code>, etc.). It also provides a natural way
+          to represent upper and lower limits: for example, 23.1<span class="subsup"><sup>&plus;&infin;</sup>
+            <sub>&minus;0</sub></span> denotes a value with a lower limit of 23.1.</p>
+      </div>
+
+      <!-- Publications -->
+      <div class="col-md-10" style="padding-bottom: 5%;">
+        <h2 id="publications"><b>Publications</b></h2>
+        <ul>
+          <li class="paper" words="gamma-ray bursts, neutron stars, kilonovae"><a href="#">Optical darkness in
+              short-duration gamma-ray bursts.</a> <b>C. Gobat</b>, & A.J. van der Horst. August 2022, <a
+              href="https://academic.oup.com/mnras">MNRAS.</a> (in prep)</li>
+          <li class="paper" words="Be stars, catalogs, X-ray binaries"><a href="#">A catalog of X-ray detected Be stars
+              (XDBS).</a> <b>C. Gobat</b>, <i>et al</i>. August 2022, <a
+              href="https://journals.aas.org/research-notes/">RNAAS.</a> (submitted)</li>
+          <li class="presentation" words="GRBs, high-energy astrophysics, posters, conferences"><a
+              href="https://baas.aas.org/pub/2022n3i111p02">Optical darkness in short-duration gamma-ray bursts.</a>
+            <b>C. Gobat</b>, & A.J. van der Horst. (2022). <i>Bulletin of the AAS, 54</i>(3).
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Other people may like it too! -->
+  <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Generated
+    using the Plain Academic HTML template</a>
+
 </body>
 
 </html>
