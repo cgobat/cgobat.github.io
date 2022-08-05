@@ -59,8 +59,8 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <!-- <li><a href="index.html">Home</a></li> -->
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#research">Research</a></li>
+          <li><a href="#about">Me</a></li>
+          <li><a href="#research">My work</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#links">Links</a></li>
         </ul>
@@ -78,6 +78,7 @@
 
         <div style="margin-top:3%; text-align:justify;">
           <h2 id="about"><b>About me</b></h2>
+          <p></p>
           <p>I recently joined the Space Science & Engineering Division at Southwest Research Institute (<a
               href="https://www.boulder.swri.edu/">SwRI</a>) after graduating from the George Washington University (<a
               href="https://physics.columbian.gwu.edu/">GWU</a>) with a B.S. in Astronomy & Astrophysics (and minors in
@@ -98,9 +99,10 @@
             data analysis to scientific instrumentation development.</p>
 
           <p>In the past, I've also worked in several academic and research labs, including the University of Washington
-            (UW)'s Applied Physics Lab writing software for computer vision applications, and the UW Advanced Propulsion
-            Lab prototyping microsatellite testbed systems.
-            I also spent some time working in a telescope store, selling astronomy equipment and optical instruments.
+            (UW) <a href="https://apl.uw.edu/">Applied Physics Laboratory</a> writing software for computer vision
+            applications, and the UW <a href="http://earthweb.ess.washington.edu/space-propulsion/index.php">Advanced
+            Propulsion Lab</a> prototyping microsatellite testbed systems.
+            I have also spent time working in a telescope store, selling astronomy equipment and optical instruments.
           </p>
 
           <!-- <p>Mr. Gobat is proficient in Python, LaTeX, Solidworks/computer-aided design, 3D printing, and MS Office, as well as both electrical and mechanical hardware prototyping. He also has experience with Git, C/C++, machining, the Adobe suite, geographic information systems (GIS), and Matlab.</p> -->
@@ -134,8 +136,8 @@
             <table>
               <tr>
                 <td>2022</td>
-                <td>George Washington University</td>
                 <td>B.S., Astronomy & Astrophysics</td>
+                <td>George Washington University</td>
                 <td>Washington, DC</td>
               </tr>
             </table>
@@ -190,11 +192,11 @@
         <p>I am the developer of the <a
             href="https://github.com/cgobat/asymmetric_uncertainty">AsymmetricUncertainty</a> Python
           package, a open-source library that provides functionality for handling asymmetric numerical uncertainties
-          (e.g. 3.0<span class="subsup"><sup>&plus;0.2</sup><sub>&minus;0.4</sub></span>). This tool has widespread
-          applicability in many scientific and computational fields, and is designed for interoperability with other
-          common Python libraries (<code>numpy</code>, <code>matplotlib</code>, etc.). It also provides a natural way
-          to represent upper and lower limits: for example, 23.1<span class="subsup"><sup>&plus;&infin;</sup>
-            <sub>&minus;0</sub></span> denotes a value with a lower limit of 23.1.</p>
+          (e.g. 3.0<span class="subsup"><sup>&plus;0.2</sup><sub>&minus;0.4</sub></span>). This tool is generalizable,
+          with widespread applicability in many scientific and computational fields, and is designed for
+          interoperability with other common Python libraries (<code>numpy</code>, <code>matplotlib</code>, etc.). An
+          additional feature is that it provides a natural way to represent upper and lower limits, by setting one side
+          of the error to &PlusMinus;<i class="fa fa-infinity"></i> and the other 0.</p>
       </div>
 
       <!-- Publications -->
