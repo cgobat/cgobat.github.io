@@ -40,6 +40,14 @@
       bottom: 0em;
     }
   </style>
+
+  <script>
+    function cb(response) {
+      document.getElementById('visit-counter').innerText = response.value;
+    }
+  </script>
+  <script async src="https://api.countapi.xyz/hit/cgobat.github.io/visits?callback=cb"></script>
+
 </head>
 
 <body>
@@ -251,7 +259,8 @@
             <ul>
               <li class="poster"><a
                   href="https://submissions.mirasmart.com/HEAD19/itinerary/PresentationDetail.aspx?evdid=270">View
-                  poster here</a> (<i class="fa fa-right-to-bracket"></i>&ensp;"<i class="fa-regular fa-eye"></i> View Poster Preview")
+                  poster here</a> (<i class="fa fa-right-to-bracket"></i>&ensp;"<i class="fa-regular fa-eye"></i> View
+                Poster Preview")
               </li>
             </ul>
           </li>
@@ -265,7 +274,8 @@
   </div> <!-- /.container -->
 
   <footer style="text-align: center; color: lightgray;">
-    <p>&copy; Caden Gobat 2022 &ndash;</p>
+    <p>&copy; Caden Gobat 2022 &ndash;<br>
+      Page visits since 8/19/22: <span id="visit-counter"></span></p>
   </footer>
 </body>
 
