@@ -14,9 +14,9 @@
   <link rel="icon" type="image/png"
     href="https://i0.wp.com/ddo.ecoleouestmtl.com/wp-content/uploads/2019/07/001-telescope.png">
   <link href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" rel="stylesheet" type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 
   <style>
@@ -46,7 +46,7 @@
       document.getElementById('visit-counter').innerText = response.value;
     }
   </script>
-  <script async src="https://api.countapi.xyz/hit/cgobat.github.io/visits?callback=cb"></script>
+  <script async src="https://api.countapi.xyz/hit/:HOST:/visits?callback=cb"></script>
 
 </head>
 
@@ -127,7 +127,7 @@
             machining, the Adobe suite, geographic information systems (GIS), and Matlab.</p> -->
 
           <br>
-          <h4><b>Professional/academic chronology</b></h4>
+          <h4><b>Professional/research chronology</b></h4>
           <div style="margin-left:5%">
             <table>
               <tr>
@@ -201,10 +201,7 @@
         <p>Department of Space Operations<br>
           Southwest Research Institute<br>
           1050 Walnut St, Suite 300<br>
-          Boulder, CO 80302<br>
-          United States<br>
-        </p>
-
+          Boulder, CO 80302, U.S.A.</p>
       </div>
 
 
@@ -212,12 +209,12 @@
       <div class="col-md-10" style="padding-bottom: 5%;">
         <div style="text-align:justify;">
           <h2 id="research"><b>About my work</b></h2>
-          <p>My primary research work at GWU was a project that involved searching for and analyzing the afterglows of
-            short gamma-ray bursts&mdash;powerful, extragalactic explosions resulting from binary neutron star merger
-            events&mdash;using data from the NASA Neil Gehrels <i>Swift</i> Observatory's X-ray Telescope (XRT) and a
-            number of optical observatories around the world. This work led to a conference presentation at the American
-            Astronomical Society's High-Energy Astrophysics Division meeting, as well as a first-author publication in
-            <i>Monthly Notices of the Royal Astronomical Society</i>, a peer-reviewed astronomy journal. See more at <a
+          <p>My main research work at GWU involved searching for and analyzing the afterglows of short gamma-ray
+            bursts&mdash;powerful, extragalactic explosions resulting from binary neutron star merger events&mdash;using
+            data from the NASA Neil Gehrels <i>Swift</i> Observatory's X-ray Telescope (XRT) and a number of optical
+            observatories around the world. This work led to a conference presentation at the American Astronomical
+            Society's High-Energy Astrophysics Division meeting, as well as a first-author publication in <i>Monthly
+              Notices of the Royal Astronomical Society</i>, a peer-reviewed astronomy journal. See more at <a
               href="http://github.com/cgobat/dark-GRBs">my GitHub repository for the project</a>.
           </p>
 
@@ -273,9 +270,14 @@
 
   </div> <!-- /.container -->
 
-  <footer style="text-align: center; color: lightgray;">
-    <p>&copy; Caden Gobat 2022 &ndash;<br>
-      Page visits since 8/19/22: <span id="visit-counter"></span></p>
+  <footer>
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style="text-align: center; color: lightgray;">
+      <p>&copy; Caden Gobat 2022 &ndash;<br>Page visits since 8/19/22: <span id="visit-counter"></span></p>
+    </div>
+    <div class="col-md-4" style="text-align:right"><a href="https://opensource.org/"><img
+          src="https://opensource.org/sites/default/files/public/osi_keyhole_300X300_90ppi_0.png"
+          alt="Support the Open Source Initiative" height="40px"/></a></div>
   </footer>
 </body>
 
