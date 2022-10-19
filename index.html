@@ -39,6 +39,10 @@
       left: 0em;
       bottom: 0em;
     }
+
+    span.mono {
+      font-family: monospace;
+    }
   </style>
 
   <script>
@@ -88,35 +92,36 @@
       <div class="col-md-9" style="height: fit-content; padding-bottom:4%;">
         <div style="text-align:justify;">
           <h2 id="about"><b>About me</b></h2>
-          <p>I am a space scientist and data analyst. I develop operations software for NASA science missions and use
+          <p>I am a space scientist and data analyst. I develop operations software for <abbr
+              title="National Aeronautics and Space Administration">NASA</abbr> science missions and use
             multiwavelength data from space and ground-based telescopes around the world to study transient events and
-            high-energy phenomena in the universe. I am passionate about developing innovative technology and
+            high-energy phenomena in the universe. I am passionate about developing innovative software, technology, and
             instrumentation to enable scientific discoveries across a range of disciplines.
           </p>
 
-          <p>I recently joined the Space Science &amp; Engineering Division at Southwest Research Institute (<a
-              href="https://www.boulder.swri.edu/">SwRI</a>) after graduating from the George Washington University (<a
+          <p>I recently joined the Space Mission Directorate at <a href="https://www.boulder.swri.edu/">Southwest
+              Research Institute</a> in Boulder after graduating from the George Washington University (<a
               href="https://physics.columbian.gwu.edu/">GWU</a>) with a B.S. in Astronomy &amp; Astrophysics (plus
-            minors in Mathematics and <a href="https://mbi.columbian.gwu.edu/">Mind/Brain Studies</a>).
-            At SwRI, I work in the science operations center (SOC) for NASA's recently-launched <a
-              href="https://www.nasa.gov/planetarymissions/discovery.html">Discovery-class</a> <a
-              href="https://lucy.swri.edu/"><i>Lucy</i></a> mission to the <a
+            dual minors in Mathematics and <a href="https://mbi.columbian.gwu.edu/">Mind/Brain Studies</a>).
+            At <abbr title="Southwest Research Institute">SwRI</abbr>, I work in the science operations center (SOC) for
+            NASA's recently-launched <a href="https://www.nasa.gov/planetarymissions/discovery.html">Discovery-class</a>
+            <a href="https://lucy.swri.edu/"><em>Lucy</em></a> mission to the <a
               href="https://en.wikipedia.org/wiki/Jupiter_trojan">Trojan asteroids</a>, developing science data
             processing and archiving pipelines, as well as in the mission operations center (MOC) for <a
-              href="https://punch.space.swri.edu/"><i>PUNCH</i></a> (Polarimeter to Unify the Corona and Heliosphere), a
-            <a href="https://science.nasa.gov/heliophysics">NASA heliophysics</a> <a
+              href="https://punch.space.swri.edu/"><em>PUNCH</em></a> (Polarimeter to Unify the Corona and Heliosphere),
+            a <a href="https://science.nasa.gov/heliophysics">NASA heliophysics</a> <a
               href="https://explorers.gsfc.nasa.gov/smex.html">Small Explorer</a> satellite constellation set to launch
             in 2025.
           </p>
 
-          <p>At GWU, I garnered experience in space science and astrophysical research, software development, data
-            analysis, and instrumentation design, while taking advanced coursework in physics, observational astronomy,
+          <p>During undergrad, I garnered experience in space science and astrophysical research, software development,
+            data analysis, and instrumentation design, while taking coursework in physics, observational astronomy,
             mechanical engineering, mathematics, and machine learning.
             I led multiple successful proposals for funding to conduct <a href="#research">research projects</a>
             spanning topics from astrophysical data analysis to scientific instrumentation development.
           </p>
 
-          <p>In the past, I've also worked in several academic and research labs, including the University of Washington
+          <p>I've also previously worked in several academic and research labs, including the University of Washington
             (UW) <a href="https://apl.uw.edu/">Applied Physics Laboratory</a> writing software for computer vision
             applications, and the UW <a href="http://earthweb.ess.washington.edu/space/">Advanced Propulsion Lab</a>
             prototyping microsatellite testbed systems.
@@ -192,7 +197,8 @@
             <td><a href="https://www.linkedin.com/in/cadengobat"><i class="fa-brands fa-linkedin" aria-hidden="true"
                   style="color:black"></i> LinkedIn</a></td>
             <td><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Gobat%2C Caden%22"><i class="fa fa-rocket"
-                  aria-hidden="true" style="color:black"></i> NASA ADS</a></td>
+                  aria-hidden="true" style="color:black"></i> NASA <abbr title="Astrophysics Data System">ADS</abbr></a>
+            </td>
           </tr>
           <tr>
             <td><a href="https://orcid.org/0000-0003-1268-8845"><i class="fa-brands fa-orcid" aria-hidden="true"
@@ -200,11 +206,10 @@
           </tr>
         </table>
         </p>
-        <p>Department of Space Operations<br />
+        <address>Space Mission Directorate<br />
           Southwest Research Institute<br />
           1050 Walnut St, Suite 300<br />
-          Boulder, CO 80302, U.S.A.
-        </p>
+          Boulder, CO 80302, U.S.A.</address>
       </div>
 
 
@@ -212,56 +217,72 @@
       <div class="col-md-10" style="padding-bottom: 3%;">
         <div style="text-align:justify;">
           <h2 id="research"><b>About my work</b></h2>
-          <!-- <h4><b>Astrophysics</b></h4> -->
-          <p>My main research work at GWU involved searching for and analyzing the afterglows of short gamma-ray
-            bursts&mdash;powerful, extragalactic explosions resulting from binary neutron star merger events&mdash;using
-            data from the NASA Neil Gehrels <i>Swift</i> Observatory's X-ray Telescope (XRT) and a number of optical
-            observatories around the world. This work led to a conference presentation at the American Astronomical
-            Society's 19<sup>th</sup> High-Energy Astrophysics Division meeting in Pittsburgh, as well as an upcoming
-            first-author publication in <i>Monthly Notices of the Royal Astronomical Society</i>. Find more in <a
-              href="https://github.com/cgobat/dark-GRBs">my GitHub repository for the project</a>.
-          </p>
+          <details open>
+            <summary>
+              <h4><b>Astrophysics</b></h4>
+            </summary>
+            <p>My primary research work at GWU involved searching for and analyzing the afterglows of short gamma-ray
+              bursts&mdash;powerful, extragalactic explosions resulting from binary neutron star merger
+              events&mdash;using data from the NASA Neil Gehrels <em>Swift</em> Observatory's X-ray Telescope (XRT) and
+              a number of optical observatories around the world.
+              This work led to a conference presentation at the American Astronomical Society's 19<sup>th</sup>
+              High-Energy Astrophysics Division meeting in Pittsburgh, as well as an upcoming first-author publication
+              in <cite>Monthly Notices of the Royal Astronomical Society</cite>. Find more on GitHub, in <a
+                href="https://github.com/cgobat/dark-GRBs">my repository for the project</a>.
+            </p>
 
-          <p>I also led the development of a public catalog of Be stars (massive B-type stars with distinct emission
-            line spectra) that have been detected in X-rays, a characteristic that hints at the presence of a compact
-            object binary partner such as a neutron star or black hole. The methodology behind the construction and open
-            release of the catalog is described in a <a href="https://doi.org/10.3847/2515-5172/ac8937">paper</a>
-            published in <i>Research Notes of the American Astronomical Society</i>. The details of this work can be
-            found <a href="https://github.com/cgobat/XDBS">on GitHub</a> as well.
-          </p>
+            <p>I also led the development of a public catalog of Be stars (massive B-type stars with distinct emission
+              line spectra) that have been detected in X-rays, a characteristic that hints at the presence of a compact
+              object binary partner such as a neutron star or black hole. The methodology behind the construction and
+              open release of the catalog is described in a <a href="https://doi.org/10.3847/2515-5172/ac8937">paper</a>
+              published in <cite title="RNAAS">Research Notes of the American Astronomical Society</cite>. The details
+              of this work can be found <a href="https://github.com/cgobat/XDBS">on GitHub</a> as well.
+            </p>
+          </details>
 
-          <!-- <h4><b>Software</b></h4> -->
-          <p>I am the author of the
-            <code><a href="https://github.com/cgobat/asymmetric_uncertainty">asymmetric_uncertainty</a></code> Python
-            package, an open-source library that provides functionality for handling (and propagating) asymmetric
-            numerical uncertainties (for example, the quantity 3.0<span
-              class="subsup"><sup>&plus;0.2</sup><sub>&minus;0.4</sub></span>). This tool has wide-ranging applications
-            in many scientific and computational fields, and is designed for interoperability with other common Python
-            libraries (such as <code>numpy</code> and <code>matplotlib</code>). The package is also capable of
-            representing upper and lower limit quantities, for example by setting one side of the error to &PlusMinus;<i
-              class="fa fa-infinity"></i> and the other to 0. The software is indexed on the Astrophysics Source Code
-            Library, with ID <samp><a href="https://ascl.net/2208.005">[ascl:2208.005]</a></samp>.
-          </p>
+          <details open>
+            <summary>
+              <h4><b>Software</b></h4>
+            </summary>
+            <p>I am the author of the <samp><a
+                href="https://github.com/cgobat/asymmetric_uncertainty">asymmetric_uncertainty</a></samp> Python
+              package, an open-source library that provides functionality for handling (and propagating) asymmetric
+              numerical uncertainties (for example, the quantity 3.0<span
+                class="subsup"><sup>&plus;0.2</sup><sub>&minus;0.4</sub></span>). This tool has wide-ranging
+              applications in many scientific and computational fields, and is designed for interoperability with other
+              common Python libraries (such as <samp>numpy</samp> and <samp>matplotlib</samp>). The package is also
+              capable of representing upper and lower limit quantities, for example by setting one side of the error to
+              &PlusMinus;<i class="fa fa-infinity"></i> and the other to 0. The software is indexed on the <cite
+                title="ASCL">Astrophysics Source Code Library</cite>, with ID <samp><a
+                href="https://ascl.net/2208.005">[ascl:2208.005]</a></samp>.
+            </p>
+          </details>
 
-          <!-- <h4><b>Instrumentation</b></h4> -->
-          <p>As a board member of the GWU chapter of the Society of Physics Students (SPS), I led a
-            <a href="https://www.spsnational.org/awards/sps-chapter-research-award/2022/george-washington-university">
-              successful proposal</a> to design, build, and launch a high-altitude ballon-based muon detector.
-            Muons (&mu;) are charged elementary particles that are created as decay products when incoming cosmic rays
-            collide with molecules in the Earth's upper atmosphere, after which they shower down towards the ground at
-            relativistic speeds.
-            Our instrument uses scintillator and Silicon photomultiplier (SiPM) technology&mdash;plus a complementary
-            suite of <i>in situ</i> atmospheric sensors&mdash;to investigate the effects of altitude on muon
-            concentration, and the degree to which muon flux is attenuated by the atmosphere.
-          </p>
-          <p>Some other highlights of my instrumentation work include a slitless <a
-              href="https://github.com/cgobat/astro-instruments/tree/main/UVEX%20spectrograph">spectrograph</a> for use
-            with amateur-class (&#8818;0.5-m) telescopes and general-purpose CCD/CMOS cameras, a <a
-              href="https://gist.github.com/cgobat/1da61e71074b99f8a47ca0f7ade5ec68">multispectral camera system</a>
-            capable of simultaneous visible/inrared imaging for mapping thermal emission, and an end-to-end <a
-              href="https://gist.github.com/cgobat/5e32510aa0cfd2ddd8b576b414a93866">experimental design/apparatus</a>
-            for performing photometry and light-curve analysis to characterize LED output/response as a function of
-            electrical input.</p>
+          <details open>
+            <summary>
+              <h4><b>Instrumentation</b></h4>
+            </summary>
+            <p>As a board member of the GWU chapter of the Society of Physics Students (SPS), I led a
+              <a href="https://www.spsnational.org/awards/sps-chapter-research-award/2022/george-washington-university">
+                successful proposal</a> to design, build, and launch a high-altitude ballon-based muon detector.
+              <dfn>Muons</dfn> (&mu;) are charged elementary particles that are created as byproducts of collisions
+              between incoming cosmic rays and molecules in the Earth's upper atmosphere, after which they shower down
+              towards the ground at relativistic speeds. The instrument uses scintillator and Silicon photomultiplier
+              technology&mdash;plus a complementary suite of <em>in situ</em> atmospheric sensors&mdash;to investigate
+              the effects of altitude on muon concentration, and the degree to which muon flux is attenuated by the
+              atmosphere.
+            </p>
+            <p>Some other highlights of my instrumentation work include a slitless <a
+                href="https://github.com/cgobat/astro-instruments/tree/main/UVEX%20spectrograph">spectrograph</a> for
+              use with amateur-class (&#8818;0.5-m) telescopes and general-purpose <abbr
+                title="charge coupled device">CCD</abbr>/<abbr
+                title="complementary metal-oxide-semiconductor">CMOS</abbr> cameras, a <a
+                href="https://gist.github.com/cgobat/1da61e71074b99f8a47ca0f7ade5ec68">multispectral camera system</a>
+              for mapping thermal emission using simultaneous visible/inrared imaging, and an end-to-end <a
+                href="https://gist.github.com/cgobat/5e32510aa0cfd2ddd8b576b414a93866">experimental design/apparatus</a>
+              for performing photometry and light-curve analysis to characterize <abbr
+                title="light-emitting diode">LED</abbr> output/response as a function of electrical input.</p>
+          </details>
         </div>
       </div>
 
@@ -313,9 +334,11 @@
     <div class="col-md-3" style="text-align:right">
       <a href="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-L7TC6AUNXW"><img src="img/cswa-am.png"
           alt="Certified Solidworks Associate - Additive Manufacturing" height="60px" /></a>
-      <!-- <a href="https://opensource.org/"><img
+      <!--
+      <a href="https://opensource.org/"><img
           src="https://opensource.org/sites/default/files/public/osi_keyhole_300X300_90ppi_0.png"
-          alt="Support the Open Source Initiative" height="60px" /></a> -->
+          alt="Support the Open Source Initiative" height="60px" /></a>
+      -->
     </div>
   </footer>
 </body>
