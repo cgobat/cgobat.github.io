@@ -17,4 +17,5 @@ authors:
   - Caden Gobat
 links:
   Paper: https://www.nature.com/articles/s41586-024-07378-0
+  ADS: https://ui.adsabs.harvard.edu/abs/2024Natur.629.1015L/abstract
 ---

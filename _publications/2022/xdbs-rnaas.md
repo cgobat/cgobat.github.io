@@ -20,4 +20,5 @@ authors:
 links:
   Paper: https://iopscience.iop.org/article/10.3847/2515-5172/ac8937
   Code: https://github.com/cgobat/XDBS
+  ADS: https://ui.adsabs.harvard.edu/abs/2022RNAAS...6..163G/abstract
 ---
