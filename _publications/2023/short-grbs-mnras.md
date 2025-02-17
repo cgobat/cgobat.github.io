@@ -18,4 +18,6 @@ authors:
 links:
   Paper: https://academic.oup.com/mnras/article/523/1/775/7136159
   Code: https://github.com/cgobat/dark-GRBs
+  ADS: https://ui.adsabs.harvard.edu/abs/2023MNRAS.523..775G/abstract
+  arXiv: https://arxiv.org/abs/2304.09122
 ---

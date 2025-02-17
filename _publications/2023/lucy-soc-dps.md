@@ -29,6 +29,7 @@ authors:
   - Zach Wiens
   - Harold F. Levison
 links:
-  PDF: https://s3.amazonaws.com/assets.pubpub.org/cd5i1gc2khwddm411g9vu8pthu725owy.pdf
+  Abstract: https://s3.amazonaws.com/assets.pubpub.org/cd5i1gc2khwddm411g9vu8pthu725owy.pdf
+  Poster: https://submissions.mirasmart.com/Verify/DPS55/Submission/Temp/rad1xjsstjp.pdf
   ADS: https://ui.adsabs.harvard.edu/abs/2023DPS....5511807P/abstract
 ---

@@ -16,5 +16,5 @@ authors:
 links:
   ASCL: https://ascl.net/2208.005
   ADS: https://ui.adsabs.harvard.edu/abs/2022ascl.soft08005G/abstract
-  Code: https://github.com/cgobat/asymmetric_uncertainty
+  Repository: https://github.com/cgobat/asymmetric_uncertainty
 ---
