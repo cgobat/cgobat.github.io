@@ -10,7 +10,7 @@ pub_date: "2023"
 
 abstract: >-
   Description of the Lucy mission's Science Operations Center.
-# cover: /assets/images/covers/...
+cover: /assets/images/covers/lucy_soc_dps_poster.jpg
 authors:
   - Joel Wm. Parker
   - Emma Birath
