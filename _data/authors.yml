@@ -1,22 +1,15 @@
-"Your Name":
+"Caden Gobat":
   bold: true
+  url: https://orcid.org/0000-0003-1268-8845
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"Alexander J. van der Horst":
+  url: https://orcid.org/0000-0001-9149-6707
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"Joel Wm. Parker":
+  url: https://boulder.swri.edu/~joel/
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+"Harold F. Levison":
+  url: https://boulder.swri.edu/~hal/
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+"Oleg Kargaltsev":
+  url: https://home.gwu.edu/~kargaltsev
