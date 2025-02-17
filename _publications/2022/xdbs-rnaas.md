@@ -10,7 +10,7 @@ pub_date: "2022"
 
 abstract: >-
   We present a catalog of X-ray Detected Be Stars (XDBS) with 161 Be stars from the Be Star Spectra (BeSS) database having X-ray counterparts in the Chandra Source Catalog v2.0, XMM-Newton 4XMM-DR11 Catalog, or Swift 2SXPS Catalog.
-# cover: /assets/images/covers/...
+cover: https://raw.githubusercontent.com/cgobat/XDBS/refs/heads/main/data/plots/HRhm_vs_HRms_BeSS.png
 authors:
   - Caden Gobat
   - Hui Yang

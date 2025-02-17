@@ -10,7 +10,7 @@ pub_date: "2023"
 
 abstract: >-
   Comprehensive investigation into optical darkness (dimmer-than-expected flux in the optical band) in short GRBs, which are associated with binary neutron star merger events.
-# cover: /assets/images/covers/...
+cover: /assets/images/covers/mnras_523_1.jpg
 authors:
   - Caden Gobat
   - Alexander J. van der Horst
