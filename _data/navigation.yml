@@ -4,4 +4,4 @@ pages:
 - name: Home
   url: /
 - name: Publications
-  url: https://ui.adsabs.harvard.edu/search/q=author%3A"Gobat%2C C."
+  url: 'https://ui.adsabs.harvard.edu/search/q=author%3A"Gobat%2C C."'
