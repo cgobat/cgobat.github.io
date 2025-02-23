@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BibTeX - {{ page.key }}</title>
+</head>
+<body>
+    <h1>BibTeX Entry for {{ page.key }}</h1>
+
+    <pre>
+        {% bibliography --query @*[citekey={{ page.key }}] %}
+    </pre>
+</body>
+</html>
