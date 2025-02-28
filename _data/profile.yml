@@ -29,7 +29,7 @@ portrait_caption: >-
 education:
 - name: George Washington University
   logo: /assets/images/logos/gwu_seal.png
-  position: >- 
+  position: >-
     B.S., Astronomy & Astrophysics<br/>
     Minors in Mathematics and Mind/Brain Studies
   date: 2018 - 2022
@@ -51,7 +51,7 @@ experience:
 # awards:
 # - name: Award Name 2
 #   date: 2024
-# - name: Award Name 1 
+# - name: Award Name 1
 #   date: 2021
 # - name: A quick brown fox jumps over the lazy dog and runs away award
 #   date: 2021

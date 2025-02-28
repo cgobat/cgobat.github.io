@@ -13,7 +13,7 @@ $(function () {
                 // remove background-image style
                 element.css('background-image', 'none');
             } else if (element.is('div')) {
-                // set the style to background-size: cover; 
+                // set the style to background-size: cover;
                 element.css('background-size', 'cover');
                 element.css('background-position', 'center');
             }
