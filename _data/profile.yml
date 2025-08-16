@@ -3,7 +3,9 @@ secondary_name: ""
 navbar_name: "Caden Gobat"
 
 positions:
-- logo: /assets/images//logos/swri_logo.png
+- logo: /assets/images/logos/sdsu_logo.png
+  name: Astronomy graduate student @ San Diego State University
+- logo: /assets/images/logos/swri_logo.png
   name: Space operations developer @ Southwest Research Institute
 
 email: "cgobat@swri.edu"
