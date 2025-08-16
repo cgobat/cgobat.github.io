@@ -28,8 +28,8 @@ portrait_caption: >-
 
 education:
 - name: San Diego State University
-  position: >-
-    M.S., Astronomy
+  logo: /assets/images/logos/sdsu_seal.png
+  position: M.S., Astronomy
   date: 2025 - present
 - name: George Washington University
   logo: /assets/images/logos/gwu_seal.png
