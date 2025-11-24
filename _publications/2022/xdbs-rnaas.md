@@ -7,6 +7,7 @@ pub: "Research Notes of the American Astronomical Society"
 # pub_post: 'Under review.'
 # pub_last: ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date: "2022"
+semantic_scholar_id: 64ddf8c2aa70cf4158d0b78999bf5807d2ca19a5
 
 abstract: >-
   We present a catalog of X-ray Detected Be Stars (XDBS) with 161 Be stars from the Be Star Spectra (BeSS) database having X-ray counterparts in the Chandra Source Catalog v2.0, XMM-Newton 4XMM-DR11 Catalog, or Swift 2SXPS Catalog.

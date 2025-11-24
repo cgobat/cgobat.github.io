@@ -7,6 +7,7 @@ pub_pre: "Submitted to "
 # pub_post: 'Under review.'
 # pub_last: ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date: "2025"
+semantic_scholar_id: 159d68556ffc031bf6bcc03f1fc46b52fdcd2c81
 
 abstract: >-
   Overview of the NASA PUNCH mission (launched March 2025), a 4-satellite constellation in Sun-synchronous low-Earth orbit that collects polarized imagery of the solar corona and heliosphere.

@@ -7,6 +7,7 @@ pub: "Monthly Notices of the Royal Astronomical Society"
 # pub_post: 'Under review.'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date: "2023"
+semantic_scholar_id: 497e85710e7bde7a573efc83813fe6cc99a2ded3
 
 abstract: >-
   Comprehensive investigation into optical darkness (dimmer-than-expected flux in the optical band) in short GRBs, which are associated with binary neutron star merger events.

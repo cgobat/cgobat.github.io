@@ -7,6 +7,7 @@ pub: "Nature"
 # pub_post: 'Under review.'
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date: "2024"
+semantic_scholar_id: 23d40d3f8cd988d55c731c663474cd68b5edd4cf
 
 abstract: >-
   Overview of the Lucy spacecraft's flyby of the asteroid (152830) Dinkinesh, and announcement of its discovery that Dinkinesh is a binary system in which the smaller body is itself a contact binary.
