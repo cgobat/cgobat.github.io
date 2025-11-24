@@ -3,7 +3,5 @@ pages:
 #       For example, the `navbar_title` field in `showcase.html` is "Showcase" and the `name` field here should also be "Showcase"
 - name: Home
   url: /
-- name: Home (Layout 2)
-  url: /index_layout2
 - name: Publications
   url: https://ui.adsabs.harvard.edu/search/q=author%3A%22Gobat%2C%20C.%22
