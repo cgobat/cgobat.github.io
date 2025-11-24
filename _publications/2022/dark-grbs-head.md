@@ -1,7 +1,7 @@
 ---
 title: "Optical darkness in short-duration gamma-ray bursts"
 date: 2022-04-15 19:56:00
-selected: true
+selected: false
 pub: "19th Meeting of the AAS High Energy Astrophysics Division"
 # pub_pre: "Submitted to "
 # pub_post: 'Under review.'
