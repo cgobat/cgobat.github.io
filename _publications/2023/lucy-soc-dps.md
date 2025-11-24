@@ -9,7 +9,7 @@ pub: "55th Annual Meeting of the AAS Division for Planetary Sciences"
 pub_date: "2023"
 
 abstract: >-
-  Description of the Lucy mission's Science Operations Center.
+  Description of the Science Operations Center for NASA's Lucy mission.
 cover: /assets/images/covers/lucy_soc_dps_poster.jpg
 authors:
   - Joel Wm. Parker

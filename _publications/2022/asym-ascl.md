@@ -1,7 +1,7 @@
 ---
 title: "Asymmetric Uncertainty: Handling nonstandard numerical uncertainties"
 date: 2022-08-27
-selected: true
+selected: false
 pub: "Astrophysics Source Code Library"
 # pub_pre: "Submitted to "
 # pub_post: 'Under review.'
