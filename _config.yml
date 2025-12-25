@@ -32,7 +32,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-timezone: America/Denver
+timezone: America/Los_Angeles
 
 collections:
   - publications
