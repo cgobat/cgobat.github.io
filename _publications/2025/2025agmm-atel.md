@@ -1,7 +1,7 @@
 ---
 title: "Photometry of M31 Nova AT 2025agmm"
 date: 2025-12-14
-selected: false
+selected: true
 pub: "Astronomer's Telegram"
 pub_date: "2025"
 
