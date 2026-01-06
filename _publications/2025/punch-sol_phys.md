@@ -3,7 +3,7 @@ title: "Polarimeter to Unify the Corona and Heliosphere (PUNCH)"
 date: 2025-09-18
 selected: true
 pub: "Solar Physics"
-pub_pre: "Submitted to "
+pub_pre: "Accepted for publication in "
 # pub_post: 'Under review.'
 # pub_last: ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date: "2025"
