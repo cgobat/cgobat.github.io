@@ -1,13 +1,13 @@
 ---
 title: "Polarimeter to Unify the Corona and Heliosphere (PUNCH)"
-date: 2025-09-18
+date: 2026-01-27
 selected: true
 pub: "Solar Physics"
-pub_pre: "Accepted for publication in "
+# pub_pre: "Accepted for publication in "
 # pub_post: 'Under review.'
 # pub_last: ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date: "2025"
-semantic_scholar_id: 159d68556ffc031bf6bcc03f1fc46b52fdcd2c81
+pub_date: "2026"
+semantic_scholar_id: 5c86452f93e112402c40b1229778282d75ffa38b
 
 abstract: >-
   Overview of the NASA PUNCH mission (launched March 2025), a 4-satellite constellation in Sun-synchronous low-Earth orbit that collects polarized imagery of the solar corona and heliosphere.
@@ -54,6 +54,7 @@ authors:
   - Chase Henley
   - et al.
 links:
+  Paper: https://link.springer.com/article/10.1007/s11207-026-02608-2
+  ADS: https://ui.adsabs.harvard.edu/abs/2026SoPh..301...16D/abstract
   arXiv: https://arxiv.org/abs/2509.15131
-  ADS: https://ui.adsabs.harvard.edu/abs/2025arXiv250915131D/abstract
 ---
