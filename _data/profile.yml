@@ -44,6 +44,10 @@ education:
   date: 2014 - 2018
 
 experience:
+- name: Redshift Space Systems, LLC
+  # logo: /assets/images/logos/redshift_logo.png
+  position: Consultant
+  date: March 2026 - present
 - name: Southwest Research Institute
   logo: /assets/images/logos/swri_logo.png
   position: >-
