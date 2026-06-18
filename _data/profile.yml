@@ -17,11 +17,35 @@ orcid: 0000-0003-1268-8845
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>Hi, I'm Caden! I'm a space scientist and software developer. I've previously worked on a number
-  of <abbr title="National Aeronautics and Space Administration">NASA</abbr> science missions, and
-  currently work on transient astrophysical phenomena such as supernovae and gamma-ray bursts. I am
-  a "full-stack" scientist, with interests and experience spanning everything from handling raw
-  spacecraft telemetry to instrument and infrastructure design to data reduction &amp; analysis.</p>
+  <p>Hi, I'm Caden! I'm a space scientist and engineer.</p>
+  <table class="tg">
+  <thead>
+    <tr>
+      <th>Science/Research</th>
+      <th>Engineering/Operations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        My scientific research mainly focuses on transient astrophysical phenomena such as
+        supernovae and gamma-ray bursts. I collect and analyze photometric and spectroscopic data
+        from telescopes around the world (and in space) to try to better understand these energetic
+        cosmic explosions. My interests also include instrument design and observatory
+        operations&mdash;I'm currently building a fiber-fed spectrograph for optical transient
+        classification.
+      </td>
+      <td>
+        I am also a professional software developer with several years of experience in space
+        mission operations, integration, and testing. I have worked on a number of <abbr
+        title="National Aeronautics and Space Administration">NASA</abbr> science missions, both
+        pre- and post-launch, and my expertise includes spacecraft telemetry processing, operations
+        engineering &amp; automation, and the preparation of data products for archiving and
+        further scientific use.
+      </td>
+    </tr>
+  </tbody>
+  </table>
 
 portrait_url: /assets/images/photos/headshot.jpg
 portrait_caption: Me in 2020.
