@@ -32,8 +32,8 @@ short_bio: >-
         supernovae and gamma-ray bursts. I collect and analyze photometric and spectroscopic data
         from telescopes around the world (and in space) to try to better understand these energetic
         cosmic explosions. My interests also include instrument design and observatory
-        operations&mdash;I'm currently building a fiber-fed spectrograph for optical transient
-        classification.
+        operations&mdash;I'm currently leading the design &amp; construction of a fiber-fed
+        spectrograph for optical transient classification.
       </td>
       <td>
         I am also a professional software developer with several years of experience in space
@@ -68,6 +68,7 @@ education:
 
 experience:
 - name: Redshift Space Systems, LLC
+  url: https://redshiftspace.systems
   logo: /assets/images/logos/redshift_logo.png
   position: Consultant
   date: March 2026 - present
