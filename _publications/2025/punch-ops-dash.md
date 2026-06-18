@@ -1,7 +1,7 @@
 ---
 title: "PUNCH Mission Planning and Operations"
 date: 2025-10-19
-selected: true
+selected: false
 pub: "Data, Analysis, and Software in Heliophysics (DASH)"
 # pub_pre: "Submitted to "
 # pub_post: 'Under review.'
